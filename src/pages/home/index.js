@@ -19,7 +19,7 @@ function Home() {
           </a>
         </Button>
       </div>
-      <div style={{ backgroundColor: "rgba(255, 255, 255, 0.3)"}}>
+      <div style={{ backgroundColor: "rgba(255, 255, 255, 0.3)" }}>
         <About />
       </div>
     </div>

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 87.8vh;
+  width: 100vw;
   background-color: #badfda;
 }
 
@@ -63,4 +63,17 @@ p {
   box-shadow: 0 0 0 0 rgb(29, 2, 148);
   transform: scale(1);
   animation: pulse 2s infinite;
+}
+
+@media screen and (max-width: 992px) {
+  .formBox {
+    width: 100vw;
+  }
+
+  .formWrapper {
+    width: 90%;
+  }
+  .registerButton {
+    width: 100vw;
+  }
 }

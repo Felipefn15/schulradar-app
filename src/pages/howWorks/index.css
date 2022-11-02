@@ -80,3 +80,13 @@ p {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+
+@media screen and (max-width: 992px) {
+  .registerNowTitle {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

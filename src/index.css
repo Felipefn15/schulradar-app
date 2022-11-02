@@ -43,7 +43,7 @@ code {
   text-decoration: underline;
 }
 
-.logo{
+.logo {
   width: 50vw;
 }
 
@@ -57,7 +57,7 @@ code {
   align-items: center;
 }
 
-.register{
+.register {
   background-color: #058737;
   border-radius: 10px;
   align-items: center;
@@ -71,6 +71,24 @@ code {
   color: white;
 }
 
-.register:hover{
+.register:hover {
   background-color: #195330;
+}
+
+@media screen and (max-width: 992px) {
+  .links {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logoImage {
+    height: 5vh;
+    width: 54vw;
+  }
+  .register {
+    height: 8vh;
+    width: 35vw;
+  }
 }

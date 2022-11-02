@@ -7,7 +7,6 @@ import "./index.css";
 import logo from "./assets/schulradar.png";
 import Button from "@mui/material/Button";
 import FAQ from "./pages/faq";
-import About from "./pages/about";
 
 const rootElement = document.getElementById("root");
 render(
