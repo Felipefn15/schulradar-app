@@ -6,6 +6,8 @@ import Form from "./pages/form";
 import "./index.css";
 import logo from "./assets/schulradar.png";
 import Button from "@mui/material/Button";
+import FAQ from "./pages/faq";
+import About from "./pages/about";
 
 const rootElement = document.getElementById("root");
 render(
@@ -20,7 +22,9 @@ render(
               </a>
             </Button>
             <Button>
-              <a href="/form" className="linkText">Anmeldung & Kontakt</a>
+              <a className="linkText" href="/faq">
+                Häufig gestellte Fragen
+              </a>
             </Button>
           </div>
           <div className="logo">
@@ -28,13 +32,20 @@ render(
               <img src={logo} alt={"logo"} className="logoImage" />
             </a>
           </div>
-          <div className="blank" />
+          <div className="registerNow">
+            <Button>
+              <a href="/form" className="register">
+                Anmeldung & Kontakt
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/how-works" element={<HowWorks />} />
         <Route path="/form" element={<Form />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
     </div>
   </BrowserRouter>,

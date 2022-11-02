@@ -1,0 +1,29 @@
+.faqWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #badfda;
+}
+
+.cardsWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.cardFaq{
+    width: 45vw;
+    margin-right: 1vw;
+    text-align: center;
+}
+
+.cardTitle{
+    font-size: 18px;
+}
+
+.cardText{
+    font-size: 12px;
+}
