@@ -8,11 +8,8 @@ function HowWorks() {
       <h1>So funktioniert`s</h1>
       <p>Weil die Wahl der richtigen Schule eine wichtige Entscheidung ist.</p>
       <div className="worksVideo">
-        <ReactPlayer
-          width={"100%"}
-          height={"65vh"}
-          url="https://www.youtube.com/watch?v=wqGBEfVwIxU"
-        />
+        <iframe src="https://player.vimeo.com/video/766812917?h=eabbf21982" width={"100%"}
+          height={"100%"} frameborder="0" allow="autoplay; fullscreen" allowfullscreen />
       </div>
       <div className={"box"}>
         <div className="boxText">
